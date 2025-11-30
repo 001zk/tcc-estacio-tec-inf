@@ -109,6 +109,39 @@ body {
 }
 
 /* GALERIA */
+
+/* --- ESTILOS PARA A NOVA SEÇÃO DE BASTIDORES --- */
+.galeria-bastidores {
+    /* Reutiliza o estilo da galeria padrão para manter a coerência visual */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px; /* Adiciona um espaço extra */
+}
+
+.galeria-bastidores img {
+    /* Reutiliza o estilo das imagens da galeria padrão */
+    width: 200px; /* Um pouco maior para essas fotos */
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    /* Garante que o aspecto da imagem seja mantido (corte se necessário) */
+    object-fit: cover; 
+    height: 200px;
+}
+
+.galeria-bastidores img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .galeria-bastidores img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
 .galeria {
     display: flex;
     flex-wrap: wrap;
