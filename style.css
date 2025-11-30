@@ -169,43 +169,92 @@ body {
 
 }
 
-/* --- ESTILOS PARA A SEÇÃO PET AJUDANTE (VIVI) --- */
+/* --- ESTILOS PARA A SEÇÃO PET AJUDANTE (VIVI) - PEDESTAL --- */
 
-/* Ajusta o grid para garantir que a foto e o texto fiquem lado a lado */
-.pet-ajudante {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    align-items: center;
-    text-align: center;
-}
-
-/* Estilo para o card que contém a imagem */
-.pet-ajudante .card {
+.pet-mvp-container {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    height: 100%;
+    gap: 30px; 
+    margin-top: 30px;
 }
 
-/* Estilo para a imagem da Vivi */
-.pet-ajudante .pet-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%; /* Torna a imagem redonda */
-    object-fit: cover; /* Garante que a imagem preencha o círculo */
-    border: 5px solid #4caf50; /* Borda de destaque */
-    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
+/* Estilo para o card de informações (texto) */
+.pet-mvp-info {
+    flex: 1; 
+    min-width: 300px; 
+    max-width: 600px; 
+    text-align: left;
 }
 
-/* Estilo da lista de contribuições */
-.pet-ajudante ul {
+.pet-mvp-info h3 {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.pet-mvp-info ul {
     list-style: none;
     padding: 0;
-    margin-top: 15px;
+    margin-top: 20px;
 }
-.pet-ajudante li {
-    padding: 5px 0;
-    font-size: 0.95rem;
+
+.pet-mvp-info li {
+    padding: 8px 0;
+    font-size: 1rem;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.pet-mvp-info li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo para o card da imagem (o pedestal) */
+.pet-mvp-image {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: rgba(76, 175, 80, 0.2); 
+    border: 3px solid #4caf50; 
+    box-shadow: 0 0 25px rgba(76, 175, 80, 0.7);
+}
+
+/* Estilo para a imagem da Vivi (AGORA COM 180PX) */
+.pet-mvp-image .pet-img {
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid #fff; 
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    margin-bottom: 15px;
+}
+
+/* Estilo para o título abaixo da imagem */
+.pet-mvp-image .pet-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4caf50;
+    text-shadow: 0 0 5px rgba(76, 175, 80, 0.8);
+    margin-top: 10px;
+}
+
+
+/* RESPONSIVIDADE PARA TELAS MENORES */
+@media (max-width: 768px) {
+    .pet-mvp-container {
+        flex-direction: column;
+    }
+    .pet-mvp-image .pet-img {
+        width: 160px; /* 160px em telas menores */
+        height: 160px;
+    }
+    .pet-mvp-image .pet-title {
+        font-size: 1.2rem;
+    }
 }
 
 .membro:hover {
