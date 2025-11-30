@@ -169,6 +169,45 @@ body {
 
 }
 
+/* --- ESTILOS PARA A SEÇÃO PET AJUDANTE (VIVI) --- */
+
+/* Ajusta o grid para garantir que a foto e o texto fiquem lado a lado */
+.pet-ajudante {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilo para o card que contém a imagem */
+.pet-ajudante .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+}
+
+/* Estilo para a imagem da Vivi */
+.pet-ajudante .pet-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem preencha o círculo */
+    border: 5px solid #4caf50; /* Borda de destaque */
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5);
+}
+
+/* Estilo da lista de contribuições */
+.pet-ajudante ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+.pet-ajudante li {
+    padding: 5px 0;
+    font-size: 0.95rem;
+}
+
 .membro:hover {
   background: rgba(76, 175, 80, 0.1)
 }
