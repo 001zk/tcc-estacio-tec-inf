@@ -173,7 +173,7 @@ body {
 
 /* Ajusta o grid para garantir que a foto e o texto fiquem lado a lado */
 .pet-ajudante {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     align-items: center;
     text-align: center;
 }
