@@ -1,21 +1,19 @@
 # Tecnologia Sustentável
-
 **TCC — Curso Técnico em Informática · Estácio de Sá**
 
 Reutilização de componentes de hardware descartados, instalação de sistema operacional Linux e doação do equipamento montado a uma instituição de caridade — unindo sustentabilidade ambiental e inclusão digital.
 
 🔗 **[Ver site do projeto →](https://tcc-estacio-tec-inf.vercel.app)**
+📄 **[DOI: 10.5281/zenodo.18135901](https://doi.org/10.5281/zenodo.18135901)**
 
 ---
 
 ## Sobre
-
 O projeto consistiu em selecionar, testar e montar um computador funcional a partir de peças reaproveitadas, instalar o Linux Mint como sistema operacional e documentar todo o processo em um site desenvolvido pela equipe. O equipamento foi doado ao final do projeto.
 
 ---
 
 ## Etapas
-
 1. **Triagem** — separação e análise dos componentes aproveitáveis
 2. **Montagem** — instalação física das peças selecionadas
 3. **Instalação de SO** — configuração do Linux Mint via pendrive bootável
@@ -26,7 +24,6 @@ O projeto consistiu em selecionar, testar e montar um computador funcional a par
 ---
 
 ## Especificações do PC Montado
-
 | Componente | Especificação |
 |---|---|
 | Placa-mãe | Gigabyte (DDR2, suporte até 8GB RAM) |
@@ -40,7 +37,6 @@ O projeto consistiu em selecionar, testar e montar um computador funcional a par
 ---
 
 ## Stack do Site
-
 - **HTML5 · CSS3 · JavaScript** — site de documentação do projeto
 - **Vercel** — deploy e hospedagem
 - **GitHub** — versionamento e documentação
@@ -48,7 +44,6 @@ O projeto consistiu em selecionar, testar e montar um computador funcional a par
 ---
 
 ## Equipe
-
 | Nome | Contribuição |
 |---|---|
 | [Luiz Gustavo](https://github.com/001zk) | Desenvolvimento web, instalação de SO e documentação |
@@ -59,10 +54,15 @@ O projeto consistiu em selecionar, testar e montar um computador funcional a par
 ---
 
 ## Impacto
-
 Componentes principais reaproveitados: placa-mãe, processador, memória RAM, HD e gabinete — reduzindo o descarte eletrônico e gerando acesso a tecnologia para quem não tem.
 
 > *"Transformamos sucata em oportunidade e tecnologia em inclusão social."*
+
+---
+
+## Publicação
+Este projeto foi documentado e publicado com DOI permanente no Zenodo:
+🔗 [https://doi.org/10.5281/zenodo.18135901](https://doi.org/10.5281/zenodo.18135901)
 
 ---
 
